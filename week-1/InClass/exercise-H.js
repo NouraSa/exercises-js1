@@ -1,15 +1,8 @@
-// const orderingPizza = function (foodQuantity = 2, foodType =, time = "today") {
-//     console.log(`Hello, I would like to order ${foodQuantity} $ {foodType} at ${time})` ;
-// }
+// Concatenating strings and numbers + multiplying an input & printing results
+const orderingPizza = function (foodQuantity = 1, foodType = "pizza" , time = "today") {
+let orderQuantity = foodQuantity * 2;
 
-// orderingPizza ();
-
-
-const foodQuantity = 2;
-const foodType = "Pizza"; 
-
-function orderingPizza() {
-    console.log(`I would like to order ${foodQuantity} ${foodType}`);
+console.log(`Hello, I would like to order ${orderQuantity} ${foodType}s ${time}`);
 }
 
 orderingPizza();
