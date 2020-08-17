@@ -1,9 +1,20 @@
 
-function Lola (name, age) {
-    name = "Lola";
+function YOB(age) {
     age = 38;
-    let DOB = 2020 - 38;
-    return console.log(`${name} was born on ${DOB}, so she is ${age} old.`);
+    let YearOfBirth = 2020 - age;
+    return YearOfBirth;
 }
 
-Lola();
+YOB();
+console.log(YOB());
+
+function meetPerson (name, age) {
+    name = "Lola";
+    age = YOB();
+    return "Meet " + name + ", she was born in " + age;
+}
+
+meetPerson();
+console.log(meetPerson());
+
+
